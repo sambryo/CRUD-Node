@@ -16,5 +16,5 @@ install nodemon as `npm install -g nodemon`
   
 ## Install express
   `npm install express`
-> run `npm install` if there is error when you run nodemon
+> run `npm install` if there is error when you run nodemon at the beginning
   
