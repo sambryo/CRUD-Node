@@ -1,20 +1,13 @@
 const express = require('express');
 const teamRouter = express.Router();
 
-const teams = [{
-    id:0,
-    name: 'Warriors'
-}, {
-    id: 1,
-    name:'Rockets'
-}, {
-    id:2,
-    name: 'Celtics'
-}, {
-    id: 3,
-    name : 'Cavaliers'
-}];
-
+/*All routes in this file will be prepended with the word NBA teams*/
 teamRouter.get('/', (req, res) => {
-    res.render('all' {Teams: 'Teams'})
+    res.render('index', {title: 'NBA teams'});
 });
+
+
+
+
+
+module.exports = teamRouter;
